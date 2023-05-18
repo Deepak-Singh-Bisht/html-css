@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-style: "IBM Plex Sans", sans-serif;
+}
+body {
+  max-width: 1440px;
+  background-color: #f0f4f5;
+  overflow: hidden;
+  margin: auto;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  height: 15vh;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+.logo{
+  width: 150px;
+}
+.list{
+  display: flex;
+  align-items: center;
+}
+.list-item{
+  list-style: none;
+  font-weight: 600;
+  margin-right: 50px;
+
+}
+.list-item a{
+  text-decoration: none;
+  color: black;
+}
+
+/* main section  */
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+}
+main section{
+  width: 50%;
+}
+
+
+
+/* left section  */
+.left-section{
+  margin-left: 5%;
+  position: relative;
+}
+.top-angle{
+  width: 25px;
+}
+.left-section h1{
+  font-size: 70px;
+  
+}
+.left-section p{
+  font-size: 18px;
+  color: #7c7c7c;
+  margin: 20px 0;
+}
+.bottom-angle{
+  width:25px;
+  right:25px;
+  position:absolute;
+
+}
+.stethoscope-img{
+  position:absolute;
+  width: 90%;
+  top: -60px;
+  right: -25%;
+  z-index: -1;
+  
+}
+.mouse-img{
+  width: 30px;
+  right: -30px;
+  position: absolute;
+  bottom: 0px;
+}
+.Appointment-button{
+  background-color: #20bc7e;
+  color: white;
+  padding: 15px 40px;
+  border-radius: 40px;
+  font-size: 20px;
+  font-weight: 700;
+  border: none; 
+}
+
+/* right section  */
+
+.greenBox-img,
+.yellowBox-img{
+  position: absolute;
+  right: 0;
+}
+.greenBox-img{
+  width:35%;
+  bottom: 30px;
+}
+.yellowBox-img{
+  width: 30%;
+  bottom: 50px;
+}
+.doctor-img{
+  position: absolute;
+  right: 0;
+  height: 90%;
+  bottom: 0;
+}
